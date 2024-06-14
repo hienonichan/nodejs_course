@@ -13,7 +13,7 @@ class MeController{
     }
    //GET me/stored/news
     news(req,res,next){
-        res.send('Bài đăng của tôi')
+        res.render('me/stored-news')
     }
 
     //GET me/trash/courses
